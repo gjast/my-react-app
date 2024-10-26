@@ -1,0 +1,40 @@
+.Block_info {
+	display: flex;
+	justify-self: center;
+	padding: 100px 100px 200px;
+}
+
+.Block_info_text {
+	margin-right: 100px;
+
+	h2 {
+		font-size: 2.5rem;
+	}
+	p {
+		font-size: 0.8rem;
+		margin-top: 50px;
+		max-width: 500px;
+		max-height: 400px;
+		opacity: 0.7;
+		overflow: scroll;
+		scrollbar-width: none;
+		color: grey;
+	}
+}
+
+.button_more_about_us {
+	background-color: #7772F1;
+	color: white;
+	text-decoration: none;
+	float: inline-start;
+	padding: 20px;
+	margin-top: 30px;
+	border-radius: 5px;
+}
+
+
+.team_img {
+	width: clamp(450px, 55vw, 750px);
+	height: clamp(400px, 50vw, 700px);
+	object-fit: auto;
+}

@@ -1,0 +1,28 @@
+.info_block {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: self-start;
+	padding: 5rem;
+	font-size: large;
+	position: relative;
+	h3 {
+		margin-right: 10px;
+	}
+}
+.info_block_text {
+	display: flex;
+
+}
+.clients_block {
+	position: relative;
+	display: flex;
+	bottom: 0;
+	margin-top: 10vw;
+}
+
+.img_clients {
+	position: absolute;
+	left: 50%;
+	max-width: clamp(100px, 90vw, 100vw);
+}

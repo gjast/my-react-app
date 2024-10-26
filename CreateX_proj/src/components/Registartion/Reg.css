@@ -1,0 +1,82 @@
+.Reg_main {
+	display: flex;
+	background-color: #1f233f;
+	align-items: center;
+	justify-content: center;
+	padding: 40px;
+	img {
+		height: 55vh;
+	}
+}
+.Reg_form_block {
+	margin-left: 10vw;
+
+	h2 {
+		font-size: 2rem;
+		color: white;
+		margin-bottom: 20px;
+	}
+}
+
+.Reg_form_input {
+	border-radius: 5px;
+	color: rgb(194, 220, 229);
+	border-color: transparent;
+	background-color: rgba(255, 255, 255, 0.216);
+	backdrop-filter: blur(30px);
+	padding: 10px;
+	margin: 20px 20px 20px 0;
+
+}
+.Reg_form_input::placeholder {
+	color: rgba(132, 146, 151, 0.336);
+}
+.Reg_form_input:focus::placeholder {
+	transition: 0.2s ease-out;
+	color: rgb(194, 208, 212);
+}
+.Reg_form_input:focus {
+	outline: none;
+	box-shadow: 0 0 15px rgb(50, 85, 117);
+	transition: 0.2s ease-out;
+}
+.Reg_form {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.row-2 {
+	grid-column: span 2;
+}
+
+.Reg_form_checkbox {
+	margin-right: 20px;
+	grid-column: span 2;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	button {
+		background-color: #7772f1;
+		color: white;
+		text-decoration: none;
+		padding: 10px;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+}
+
+.checkbox_block {
+	display: flex;
+	align-items: flex-start;
+	margin-top: 20px;
+	max-width: 40%;
+	p {
+		margin-left: 10px;
+		color: aliceblue;
+	}
+
+	input {
+		width: 20px;
+		height: 20px;
+	}
+}
